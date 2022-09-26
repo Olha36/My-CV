@@ -1,16 +1,9 @@
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
-    font-style: regular;
-    line-height: 24px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-style: regular;
+  line-height: 24px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 h1 {
   font-size: 45px;
 }
@@ -56,4 +49,120 @@ h4 {
 .about-text {
   width: 400px;
   color: #595959;
+}
+.projects {
+  margin: 40px 0 50px;
+}
+.project-title {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+.projects-item {
+  color: #000000;
+  line-height: 24px;
+  font-weight: bold;
+}
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+.project-bracket {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+.work-experience {
+  margin-bottom: 12px;
+  line-height: 27px;
+}
+.work-details:last-child {
+  margin-bottom: 43px;
+}
+.work-details p {
+  font-size: 12px;
+  color: rgba(168, 168, 168, 1);
+}
+.work-details h4,
+.work-place {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+.work-position {
+  color:  rgba(0, 0, 0, 1);
+}
+.work-place {
+  color: rgba(255, 215, 0, 1);
+}
+.work-bracket {
+  color: rgba(0, 0, 0, 1);
+}
+.work-responsibilities {
+  color: #595959;
+  width: 509px;
+  margin-bottom: 16px;
+}
+.education-info p {
+  color: rgba(168, 168, 168, 1);
+}
+.education-name {
+  margin: 12px 0;
+  color: rgba(255, 215, 0, 1);
+}
+.sidebar {
+  background-color: #721313;;
+  padding-top: 40px;
+}
+.sidebar-title {
+  color: rgba(255, 215, 0, 1);
+  font-style: bold;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+.photo {
+  width: 370px;
+  height: 631px;
+  margin-bottom: 50px;
+}
+.contacts, 
+.tech-skills, 
+.soft-skills {
+    margin-left: 40px;
+}
+.contacts,
+.tech-skills {
+    margin-bottom: 50px;
+}
+.contact-type {
+    font-family: Montserrat;
+    font-size: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.contact-link1 {
+    text-decoration: none;
+}
+.contact-link1,
+.contact-link2 {
+    color: #565e6a;
+}
+.skills-list {
+    color: #fff;
+    margin-left: 19px; 
+}
+.skills-type { 
+    color: rgba(251, 109, 58, 1);
+}
+.skills-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
 }
