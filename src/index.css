@@ -1,3 +1,6 @@
+* {
+  padding: 0;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   font-style: regular;
@@ -24,6 +27,7 @@ h4 {
   flex-direction: row-reverse;
   width: 1200px;
   margin: 0 auto;
+  text-align: left;
 }
 .main-content {
   box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
@@ -128,13 +132,14 @@ h4 {
 }
 .photo {
   width: 370px;
-  height: 631px;
+  height: 556px;
   margin-bottom: 50px;
 }
 .contacts, 
 .tech-skills, 
-.soft-skills {
-    margin-left: 40px;
+.soft-skills,
+.languages  {
+  margin-left: 40px;
 }
 .contacts,
 .tech-skills {
@@ -154,11 +159,12 @@ h4 {
 .contact-link2 {
     color: #565e6a;
 }
-.skills-list {
+.skills-list,
+.languages-list {
     color: #fff;
     margin-left: 19px; 
 }
-.skills-type { 
+.li-type { 
     color: rgba(251, 109, 58, 1);
 }
 .skills-text {

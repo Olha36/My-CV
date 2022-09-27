@@ -50,8 +50,8 @@ export function Projects() {
         </li>
         <li className="projects-item">
           <span className="project">
-            <a href="https://hellenglish.goit.global/"
-              className="project-link">https://hellenglish.goit.global/
+            <a href="https://olha36.github.io/Calculator/"
+              className="project-link">https://olha36.github.io/Calculator/
             </a>
             ................
             <span className="project-bracket">[</span> React.js, Node.js <span className="project-bracket">]</span>
